@@ -84,7 +84,7 @@ class Content extends Component {
                         </div>
                     </div>
                 </div>
-           
+                <hr></hr>
             </div>
 
             
