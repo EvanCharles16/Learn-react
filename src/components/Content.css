@@ -1,0 +1,132 @@
+/* About Us */
+.bg-content {
+    height: 120px;
+}
+
+/* Content 1 */
+.diff-content {
+    display: flex;
+    margin-top: 35px;
+    justify-content: space-around;
+}
+
+.diff-content-item{
+    width: 30%;
+}
+
+.diff-content-item a.active {
+    background: #1b9bff;
+    transition: .5s ease;
+}
+
+.diff-content-item h2 {
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.diff-content-item h1 {
+    font-size: 40px;
+    text-transform: uppercase;
+    word-spacing: 5px;
+}
+
+.diff-content-item p {
+    font-size: 20px;
+    text-transform: capitalize;
+    word-spacing: 5px;
+}
+
+.diff-content-item button {
+    font-size: 26px;
+    margin-right: 20px;
+    margin-top: 30px;
+    border: 1px solid black;
+}
+
+.diff-content-item img{
+    background-image: url(../img/1.png);
+    width: 100%;
+    margin-bottom: 25px;
+    }
+
+/* Content 2 */
+.diff-content2 {
+    display: flex;
+    margin-top: 35px;
+    justify-content: space-around;
+}
+
+.diff-content-item2{
+    width: 30%;
+}
+
+.diff-content-item2 h2 {
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.diff-content-item2 p {
+    font-size: 28px;
+    text-transform: capitalize;
+    word-spacing: 5px;
+    margin-top: 20px;
+}
+
+.diff-content-item2 img{
+    background-image: url(../img/1.png);
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.color {
+    color: blue;
+}
+
+
+/* Portfolio */
+#portfolio {
+    padding: 5% 10%;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+h1.portfolio  {
+    margin-bottom: 70px;
+    color: #444444;
+    text-transform: capitalize;
+    font-size: 50px;
+    word-spacing: 25px;
+    letter-spacing: 5px;
+}
+
+.portfolio-wrapper .team{
+    display: flex;
+    justify-content: space-between;
+}
+
+.portfolio-wrapper .team {
+    display: flex;
+    justify-content: space-between;
+}
+
+.portfolio-wrapper .team-1.team {
+    margin-bottom: 25px;
+  }
+  
+.portfolio-wrapper .team-member {
+    width: 30%;
+    height: auto;
+    cursor: pointer;
+    overflow: hidden;
+  }
+  
+.portfolio-wrapper .team-member img {
+    width: 80%;
+    display: block;
+    height: auto;
+    transition: all 0.5s ease;
+  }
+  
+.portfolio-wrapper .team-member img:hover {
+    transform: scale(1.1);
+  }
