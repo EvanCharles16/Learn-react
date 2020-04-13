@@ -1,3 +1,22 @@
+/* Contact */
+.contactTitle h1{
+    text-align: center;
+    margin : 50px 0;
+    color: #444444;
+    text-transform: capitalize;
+    font-size: 50px;
+    word-spacing: 25px;
+    letter-spacing: 5px;
+}
+
+.social-media-icon {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-bottom: 40px;
+
+}
+
 /* Footer */
 .footer {
     width: 100%;
@@ -10,3 +29,4 @@
         color: white;
         font-size: 20px;
     }
+    

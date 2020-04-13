@@ -1,6 +1,7 @@
 /* About Us */
 .bg-content {
     height: 120px;
+    background-color: #f4f4f4;
 }
 
 /* Content 1 */
@@ -8,6 +9,7 @@
     display: flex;
     margin-top: 35px;
     justify-content: space-around;
+    background-color: #f4f4f4;
 }
 
 .diff-content-item{
@@ -41,6 +43,7 @@
     margin-right: 20px;
     margin-top: 30px;
     border: 1px solid black;
+    border-radius: 10%;
 }
 
 .diff-content-item img{
