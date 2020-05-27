@@ -1,14 +1,14 @@
 import React, { Component } from "react";
 import "./Content.css";
-import logo from "../img/1.png";
-import logo1 from "../img/2.png";
+import logo from "../../img/1.png";
+import logo1 from "../../img/2.png";
 
-import portfolio1 from "../img/html.png";
-import portfolio2 from "../img/css.png";
-import portfolio3 from "../img/js.png";
-import portfolio4 from "../img/bootstrap.png";
-import portfolio5 from "../img/nodejs.png";
-import portfolio6 from "../img/react.svg";
+import portfolio1 from "../../img/html.png";
+import portfolio2 from "../../img/css.png";
+import portfolio3 from "../../img/js.png";
+import portfolio4 from "../../img/bootstrap.png";
+import portfolio5 from "../../img/nodejs.png";
+import portfolio6 from "../../img/react.svg";
 
 class Content extends Component {
 	render() {
